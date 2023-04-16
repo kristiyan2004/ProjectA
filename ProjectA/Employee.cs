@@ -23,7 +23,7 @@ namespace ProjectA
 
         public void GoToWork()
         {
-            Console.WriteLine("It was a tough day at work! +$100.");
+            Console.WriteLine("It was a tough day at work! +$200.");
         }
     }
 }
