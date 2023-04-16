@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Employee firstEmployee = new Employee("Kristiyan", "Hristov", 18, 'M', 5);
+            Employee firstEmployee = new Employee("Maria", "Hristova", 18, 'F', 5);
             firstEmployee.Introduce();
             firstEmployee.GoToWork();
 
