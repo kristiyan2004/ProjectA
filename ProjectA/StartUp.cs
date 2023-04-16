@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Employee firstEmployee = new Employee("Kristiyan", "Hristov", 18, 'M', 5);
+            firstEmployee.Introduce();
         }
     }
 }
