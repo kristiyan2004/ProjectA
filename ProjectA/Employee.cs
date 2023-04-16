@@ -18,12 +18,12 @@ namespace ProjectA
 
         public override void Introduce()
         {
-            Console.WriteLine($"Name: {base.FirstName} {base.LastName} | Gender: {base.Gender} | Age: {base.Age} years old | Work Experience: {this.WorkExperience} years.");
+            Console.WriteLine($"Name: {base.FirstName} {base.LastName} | Gender: {base.Gender} | Age: {base.Age} years old | Work Experience: {this.WorkExperience} years");
         }
 
         public void GoToWork()
         {
-            Console.WriteLine("It was a tough day at work! +100$");
+            Console.WriteLine("It was a tough day at work! +$100.");
         }
     }
 }
